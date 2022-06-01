@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./appointment-card.component.css']
 })
 export class AppointmentCardComponent implements OnInit {
-  apointmants = [
+  appointmants = [
     { name: "Joao Jose", day: "28/06", timeStart: "12:45", timeEnd: "14:45" },
     { name: "Carlos Alberto", day: "28/06", timeStart: "14:50", timeEnd: "16:50" },
     { name: "Michael Jeguison", day: "28/06", timeStart: "17:00", timeEnd: "18:45" },
