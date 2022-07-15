@@ -1,0 +1,6 @@
+<div class="container-calendar">
+    <mat-card>
+        <mat-calendar [(selected)]="selected" [selected]="setDate(selected)"></mat-calendar>
+    </mat-card>
+    <p>{{selected?.toLocaleDateString()}}</p>
+</div>
